@@ -1,0 +1,2 @@
+# RHEO/requirements.txt
+numpy>=1.26

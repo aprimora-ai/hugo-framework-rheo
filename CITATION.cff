@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "RHEO: Flow-Based Temporal Dynamics for Artificial Agents"
+abstract: "RHEO introduces a fluid-dynamics formalism for subjective temporal experience in artificial agents, using an Affective Reynolds Number to govern time dilation under emotional intensity."
+type: software
+authors:
+  - family-names: Ohio
+    given-names: David
+    email: odavidohio@gmail.com
+    orcid: ""
+version: "1.0.0"
+date-released: "2026-03-16"
+license: CC-BY-4.0
+repository-code: "https://github.com/aprimora-ai/hugo-framework-rheo"
+keywords:
+  - subjective time
+  - temporal perception
+  - Reynolds number
+  - homeostatic regulation
+  - AGI
+  - affective computing
+  - HUGO framework
+references:
+  - type: software
+    title: "HUGO: Homeostatic Framework for AGI"
+    authors:
+      - family-names: Ohio
+        given-names: David
+    doi: "10.5281/zenodo.18947852"
+  - type: software
+    title: "ECHO: Empathic Coupling and Homeostatic Oscillation"
+    authors:
+      - family-names: Ohio
+        given-names: David
+    doi: "10.5281/zenodo.19043115"
+  - type: software
+    title: "REMIND: Episodic Memory Protocol"
+    authors:
+      - family-names: Ohio
+        given-names: David
+    doi: "10.5281/zenodo.19054013"

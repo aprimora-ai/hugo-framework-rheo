@@ -1,0 +1,81 @@
+{
+  "experiment": "R-3",
+  "description": "Paradoxo de Bergson -- Compressao retrospectiva",
+  "config": {
+    "N_TRAUMA": 20,
+    "N_REPOUSO": 200,
+    "I_TRAUMA": 0.4,
+    "I_REPOUSO": 0.02,
+    "seeds": [
+      42,
+      123,
+      7,
+      99,
+      31
+    ]
+  },
+  "means": {
+    "T_rec_trauma": 8.8,
+    "T_rec_repouso": 2.0,
+    "ratio": 4.4
+  },
+  "passed": true,
+  "n_seeds_pass": 5,
+  "all_results": [
+    {
+      "seed": 42,
+      "T_rec_trauma": 8.8,
+      "T_rec_repouso": 2.0,
+      "T_viv_trauma": 51.158,
+      "T_viv_repouso": 200.0,
+      "T_fis_trauma": 20.0,
+      "T_fis_repouso": 200.0,
+      "bergson_ok": true,
+      "ratio_rec": 4.4
+    },
+    {
+      "seed": 123,
+      "T_rec_trauma": 8.8,
+      "T_rec_repouso": 2.0,
+      "T_viv_trauma": 50.269,
+      "T_viv_repouso": 200.0,
+      "T_fis_trauma": 20.0,
+      "T_fis_repouso": 200.0,
+      "bergson_ok": true,
+      "ratio_rec": 4.4
+    },
+    {
+      "seed": 7,
+      "T_rec_trauma": 8.8,
+      "T_rec_repouso": 2.0,
+      "T_viv_trauma": 52.065,
+      "T_viv_repouso": 200.0,
+      "T_fis_trauma": 20.0,
+      "T_fis_repouso": 200.0,
+      "bergson_ok": true,
+      "ratio_rec": 4.4
+    },
+    {
+      "seed": 99,
+      "T_rec_trauma": 8.8,
+      "T_rec_repouso": 2.0,
+      "T_viv_trauma": 51.37,
+      "T_viv_repouso": 200.0,
+      "T_fis_trauma": 20.0,
+      "T_fis_repouso": 200.0,
+      "bergson_ok": true,
+      "ratio_rec": 4.4
+    },
+    {
+      "seed": 31,
+      "T_rec_trauma": 8.8,
+      "T_rec_repouso": 2.0,
+      "T_viv_trauma": 52.063,
+      "T_viv_repouso": 200.0,
+      "T_fis_trauma": 20.0,
+      "T_fis_repouso": 200.0,
+      "bergson_ok": true,
+      "ratio_rec": 4.4
+    }
+  ]
+}

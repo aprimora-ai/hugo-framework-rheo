@@ -1,0 +1,144 @@
+{
+  "experiment": "R-2",
+  "description": "Validacao Teorema R-1 -- Dilatacao sob trauma",
+  "config": {
+    "N_STEPS": 50,
+    "N_H1": 2,
+    "seeds": [
+      42,
+      123,
+      7,
+      99,
+      31
+    ]
+  },
+  "means": {
+    "A_control": 1.030682,
+    "B_limiar": 1.128886,
+    "C_trauma": 2.171982
+  },
+  "passed": true,
+  "n_seeds_pass": 5,
+  "all_results": [
+    {
+      "condition": "A_control",
+      "i_eff": 0.05,
+      "seed": 42,
+      "ratio": 1.02996,
+      "T_vivido": 51.498,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "A_control",
+      "i_eff": 0.05,
+      "seed": 123,
+      "ratio": 1.02964,
+      "T_vivido": 51.482,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "A_control",
+      "i_eff": 0.05,
+      "seed": 7,
+      "ratio": 1.03123,
+      "T_vivido": 51.561,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "A_control",
+      "i_eff": 0.05,
+      "seed": 99,
+      "ratio": 1.03112,
+      "T_vivido": 51.556,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "A_control",
+      "i_eff": 0.05,
+      "seed": 31,
+      "ratio": 1.03146,
+      "T_vivido": 51.573,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "B_limiar",
+      "i_eff": 0.15,
+      "seed": 42,
+      "ratio": 1.1255,
+      "T_vivido": 56.275,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "B_limiar",
+      "i_eff": 0.15,
+      "seed": 123,
+      "ratio": 1.12402,
+      "T_vivido": 56.201,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "B_limiar",
+      "i_eff": 0.15,
+      "seed": 7,
+      "ratio": 1.13143,
+      "T_vivido": 56.571,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "B_limiar",
+      "i_eff": 0.15,
+      "seed": 99,
+      "ratio": 1.13096,
+      "T_vivido": 56.548,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "B_limiar",
+      "i_eff": 0.15,
+      "seed": 31,
+      "ratio": 1.13252,
+      "T_vivido": 56.626,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "C_trauma",
+      "i_eff": 0.4,
+      "seed": 42,
+      "ratio": 2.13559,
+      "T_vivido": 106.78,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "C_trauma",
+      "i_eff": 0.4,
+      "seed": 123,
+      "ratio": 2.11971,
+      "T_vivido": 105.985,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "C_trauma",
+      "i_eff": 0.4,
+      "seed": 7,
+      "ratio": 2.1993,
+      "T_vivido": 109.965,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "C_trauma",
+      "i_eff": 0.4,
+      "seed": 99,
+      "ratio": 2.19423,
+      "T_vivido": 109.711,
+      "T_fisico": 50.0
+    },
+    {
+      "condition": "C_trauma",
+      "i_eff": 0.4,
+      "seed": 31,
+      "ratio": 2.21108,
+      "T_vivido": 110.554,
+      "T_fisico": 50.0
+    }
+  ]
+}
