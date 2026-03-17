@@ -2,6 +2,7 @@
 
 **Paper V of the HUGO AGI Framework**
 
+[![DOI](https://zenodo.org/badge/1183844292.svg)](https://doi.org/10.5281/zenodo.19058761)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > *"Time is not what the clock says. Time is what the field does."*
@@ -18,7 +19,7 @@ RHEO (from Greek *rheo*, to flow) introduces a fluid-dynamics formalism for subj
 ## Quick Start
 
 ```bash
-cd C:\Users\ohiod\Projects\RHEO
+pip install numpy
 python run_all_rheo.py
 ```
 
@@ -52,13 +53,14 @@ Where:
 | II | ECHO | Empathic coupling | [10.5281/zenodo.19043115](https://doi.org/10.5281/zenodo.19043115) |
 | III | REMIND | Episodic memory | [10.5281/zenodo.19054013](https://doi.org/10.5281/zenodo.19054013) |
 | IV | Radiante | Structural navigation | [10.5281/zenodo.18940478](https://doi.org/10.5281/zenodo.18940478) |
-| **V** | **RHEO** | **Temporal dynamics** | **This paper** |
+| **V** | **RHEO** | **Temporal dynamics** | [**10.5281/zenodo.19058762**](https://doi.org/10.5281/zenodo.19058762) |
 
 ## Structure
 
 ```
 RHEO/
 ├── paper_rheo_v1.md          # Paper source
+├── paper_rheo_v1.pdf         # Paper PDF (5 pages)
 ├── run_all_rheo.py           # Run all experiments
 ├── requirements.txt
 ├── src/
@@ -90,7 +92,7 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
   title     = {RHEO: Flow-Based Temporal Dynamics for Artificial Agents},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.PENDING},
+  doi       = {10.5281/zenodo.19058762},
   url       = {https://github.com/aprimora-ai/hugo-framework-rheo}
 }
 ```
